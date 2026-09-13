@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>الشيخ أبو فيصل المطيري | خدمات روحانية وتواصل</title>
+  <meta name="description" content="الشيخ أبو فيصل المطيري يقدم خدمات روحانية وإرشاداً عاماً للتواصل والاستفسار عبر واتساب.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="الشيخ أبو فيصل المطيري | خدمات روحانية وتواصل">
+  <meta property="og:description" content="تواصل مباشر مع الشيخ أبو فيصل المطيري لطرح الاستفسارات حول الخدمات الروحانية.">
+  <meta name="theme-color" content="#102a2a">
+  <style>
+    :root {
+      --ink: #173434;
+      --muted: #637473;
+      --cream: #f7f4ed;
+      --paper: #fffdf8;
+      --gold: #b58a4c;
+      --gold-dark: #8b6735;
+      --line: rgba(23, 52, 52, .12);
+      --shadow: 0 18px 50px rgba(23, 52, 52, .12);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Tahoma, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--cream);
+      line-height: 1.8;
+    }
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(1120px, calc(100% - 40px)); margin: auto; }
+    header {
+      position: relative;
+      overflow: hidden;
+      min-height: 680px;
+      background:
+        radial-gradient(circle at 14% 18%, rgba(181,138,76,.22), transparent 27%),
+        radial-gradient(circle at 85% 78%, rgba(181,138,76,.13), transparent 24%),
+        linear-gradient(135deg, #0e2627 0%, #173c3b 55%, #102b2c 100%);
+      color: #fff;
+    }
+    header::before, header::after {
+      content: ""; position: absolute; border: 1px solid rgba(214,177,111,.28);
+      border-radius: 50%; pointer-events: none;
+    }
+    header::before { width: 520px; height: 520px; left: -210px; top: -245px; }
+    header::after { width: 760px; height: 760px; right: -420px; bottom: -470px; }
+    nav { position: relative; z-index: 2; display:flex; justify-content:space-between; align-items:center; padding: 26px 0; }
+    .brand { display:flex; gap:12px; align-items:center; font-weight:700; letter-spacing:.2px; }
+    .mark { width:42px; height:42px; display:grid; place-items:center; border:1px solid rgba(214,177,111,.7); border-radius:50%; color:#e4bf7e; font-size:22px; }
+    .nav-link { color: rgba(255,255,255,.8); font-size:14px; }
+    .hero { position:relative; z-index:1; display:grid; grid-template-columns: 1.2fr .8fr; gap: 70px; align-items:center; padding: 86px 0 110px; }
+    .eyebrow { color:#e4bf7e; font-size:14px; font-weight:700; letter-spacing:.4px; margin-bottom:16px; }
+    h1 { margin:0 0 20px; font-size: clamp(36px, 6vw, 68px); line-height:1.15; letter-spacing:-1.5px; }
+    .lead { color: rgba(255,255,255,.8); font-size: clamp(18px, 2.5vw, 23px); max-width: 620px; margin:0 0 32px; }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+    .btn { display:inline-flex; align-items:center; justify-content:center; gap:10px; min-height:52px; padding: 0 22px; border-radius:10px; font-weight:700; transition:transform .2s ease, box-shadow .2s ease, background .2s ease; }
+    .btn:hover { transform:translateY(-2px); }
+    .btn-primary { background:#d2a15a; color:#102a2a; box-shadow:0 9px 24px rgba(0,0,0,.18); }
+    .btn-primary:hover { background:#e0b36d; }
+    .btn-ghost { color:#fff; border:1px solid rgba(255,255,255,.28); }
+    .note { font-size:12px; color:rgba(255,255,255,.58); margin-top:16px; }
+    .seal { justify-self:end; width:min(320px, 70vw); aspect-ratio:1; border:1px solid rgba(214,177,111,.58); border-radius:50%; display:grid; place-items:center; position:relative; background: radial-gradient(circle, rgba(255,255,255,.07), transparent 62%); }
+    .seal::before { content:""; position:absolute; inset:22px; border:1px solid rgba(214,177,111,.32); border-radius:50%; }
+    .seal-content { text-align:center; color:#e4bf7e; position:relative; }
+    .seal-content .ornament { font-size:46px; line-height:1; display:block; margin-bottom:10px; }
+    .seal-content strong { display:block; font-size:20px; }
+    .seal-content span { font-size:13px; color:rgba(255,255,255,.66); }
+    main { padding: 84px 0; }
+    .section-head { max-width: 650px; margin-bottom: 34px; }
+    .section-kicker { color:var(--gold-dark); font-size:14px; font-weight:bold; }
+    h2 { font-size: clamp(28px, 4vw, 42px); line-height:1.25; margin:7px 0 12px; }
+    .section-head p { margin:0; color:var(--muted); }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+    .card { background:var(--paper); border:1px solid var(--line); border-radius:18px; padding:28px; box-shadow: var(--shadow); }
+    .icon { width:42px; height:42px; display:grid; place-items:center; background:#f0e5d0; color:var(--gold-dark); border-radius:12px; font-size:20px; margin-bottom:16px; }
+    .card h3 { margin:0 0 8px; font-size:20px; }
+    .card p { color:var(--muted); margin:0; font-size:15px; }
+    .contact { margin-top:84px; background:var(--ink); color:#fff; border-radius:24px; padding:48px; display:flex; justify-content:space-between; gap:30px; align-items:center; }
+    .contact h2 { margin:0 0 8px; }
+    .contact p { color:rgba(255,255,255,.72); margin:0; }
+    .number { color:#e4bf7e; direction:ltr; display:inline-block; margin-top:10px; font-weight:bold; }
+    footer { border-top:1px solid var(--line); padding:24px 0 34px; color:var(--muted); font-size:12px; }
+    .footer-row { display:flex; justify-content:space-between; gap:20px; }
+    @media (max-width: 760px) {
+      .wrap { width:min(100% - 28px, 1120px); }
+      header { min-height:auto; }
+      nav { padding:18px 0; }
+      .hero { grid-template-columns:1fr; gap:42px; padding:60px 0 78px; }
+      .seal { justify-self:center; width:220px; }
+      .cards { grid-template-columns:1fr; }
+      main { padding:60px 0; }
+      .contact { margin-top:60px; padding:30px 24px; display:block; }
+      .contact .btn { margin-top:24px; width:100%; }
+      .footer-row { display:block; }
+      .footer-row span { display:block; margin-top:8px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav aria-label="التنقل الرئيسي">
+        <a class="brand" href="#top" aria-label="العودة إلى الصفحة الرئيسية"><span class="mark">✦</span><span>الشيخ أبو فيصل المطيري</span></a>
+        <a class="nav-link" href="#contact">التواصل</a>
+      </nav>
+      <div class="hero" id="top">
+        <div>
+          <div class="eyebrow">شيخ روحاني • خصوصية واحترام</div>
+          <h1>الشيخ أبو فيصل المطيري<br>للخدمات الروحانية</h1>
+          <p class="lead">تواصل مباشرة مع الشيخ أبو فيصل المطيري للتعرّف على طبيعة الخدمات الروحانية وطرح استفسارك عبر واتساب.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://api.whatsapp.com/send/?phone=966581201568" target="_blank" rel="noopener" aria-label="التواصل مع أبو فيصل المطيري عبر واتساب">تواصل عبر واتساب <span aria-hidden="true">↗</span></a>
+            <a class="btn btn-ghost" href="#about">التعرّف أكثر</a>
+          </div>
+          <p class="note">الرد والتفاصيل يتمان بعد التواصل المباشر.</p>
+        </div>
+        <div class="seal" aria-hidden="true"><div class="seal-content"><span class="ornament">☾</span><strong>الشيخ أبو فيصل</strong><span>خدمات روحانية وتواصل</span></div></div>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <section id="about" aria-labelledby="about-title">
+      <div class="section-head"><div class="section-kicker">خدمات روحانية • بوضوح وخصوصية</div><h2 id="about-title">تعرّف على طبيعة الخدمة</h2><p>هذه الصفحة مخصصة للتعريف بالشيخ أبو فيصل المطيري وفتح باب التواصل المباشر حول الخدمات الروحانية والإرشاد العام.</p></div>
+      <div class="cards">
+        <article class="card"><div class="icon">◌</div><h3>خدمات روحانية</h3><p>تواصل للتعرّف على طبيعة الخدمات المتاحة وطرح أسئلتك بشكل واضح.</p></article>
+        <article class="card"><div class="icon">◈</div><h3>إرشاد عام</h3><p>تتم مناقشة التفاصيل بشكل مباشر وبأسلوب يحترم الخصوصية وحرية القرار.</p></article>
+        <article class="card"><div class="icon">✧</div><h3>وضوح قبل البدء</h3><p>اسأل عن التفاصيل والتكلفة وطريقة التواصل قبل اتخاذ أي قرار.</p></article>
+      </div>
+    </section>
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div><h2 id="contact-title">تواصل مع الشيخ أبو فيصل</h2><p>للاستفسار عن الخدمات الروحانية، استخدم زر واتساب أو الرقم التالي:</p><a class="number" href="tel:+966581201568">+966 58 120 1568</a></div>
+      <a class="btn btn-primary" href="https://api.whatsapp.com/send/?phone=966581201568" target="_blank" rel="noopener">فتح واتساب <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+  <footer><div class="wrap footer-row"><span>© 2026 الشيخ أبو فيصل المطيري</span><span>الخدمات روحانية وإرشادية عامة، ولا توجد وعود بنتائج مضمونة أو بديل عن المختصين المرخصين.</span></div></footer>
+</body>
+</html>
